@@ -1,0 +1,8 @@
+?loc=shroom
+    equipL Big Poison Sword
+    equipR Aether Shield
+    ?foe.distance > 16
+        equipL Ouroboros
+
+    ?foe = boss
+        equipR Vigor Sword

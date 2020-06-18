@@ -1,0 +1,11 @@
+?loc = mine | loc = bronze
+    ?foe = boss
+        ?foe.distance < 10
+            equipL Aether Hammer
+            equipR Aether Sword
+        //:?armor.f = 0
+        //    equipL Fire Wand
+        //    equipR Aether Shield
+    :
+        equipL Aether Hammer
+        equipR Aether Shield

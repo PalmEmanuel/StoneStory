@@ -1,0 +1,14 @@
+?loc=icy
+    equipL Fire Sword D
+    equipR Fire Shield
+    ?foe.distance > 15
+        equipL Ouroboros
+
+    ?foe = boss
+        ?foe.distance < 10
+            equipL Ice Sword
+            equipR Fire Sword D
+        ?hp < maxhp
+            equipR Vigor Sword
+        ?foe.debuffs.count = 6
+            equipL Fire Sword dF

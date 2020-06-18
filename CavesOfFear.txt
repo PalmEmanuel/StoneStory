@@ -1,0 +1,8 @@
+?loc=caves
+    equipL Big Ice Sword
+    equipR Ice Shield
+    ?foe.distance > 15
+        equipL Ouroboros
+
+    ?foe = boss | armor > 30
+        equipR Vigor Sword

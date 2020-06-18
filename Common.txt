@@ -1,0 +1,5 @@
+func IsFoeInChargingRange()
+	return foe.distance < 17 & foe.distance > 10
+
+?IsFoeInChargingRange()
+    equipR dashing shield
