@@ -1,6 +1,6 @@
 ?loc=shroom
     equipL Big Poison Sword
-    equipR Aether Shield
+    equipR Poison Shield
     ?foe.distance > 16
         equipL Ouroboros
 

@@ -1,0 +1,2 @@
+?loc=halls | loc=pallas
+    equip Vigor Staff
